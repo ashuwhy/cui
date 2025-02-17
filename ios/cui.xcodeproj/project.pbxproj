@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C80B921A6F3F58F76C31292 /* libPods-cui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-cui.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		1E2BE87C8ED3461D8761FB50 /* JandaRomantic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A31B3E3DCA184A04B32D2CDA /* JandaRomantic.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9536292D419641CC8E40A8B0 /* Atkinson.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D043570E2F03483C9E44FD49 /* Atkinson.ttf */; };
 		9D2B817262F45CAEE5CD1515 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		D73FF2900BBDB0F9B2D6E21B /* libPods-cui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF54E390C63EDC8A4E35C73C /* libPods-cui.a */; };
+		E955048D74D5491E99A5CA5F /* Kugile_Demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63490B48019E4AAA9141C74B /* Kugile_Demo.ttf */; };
+		81952621BDBE464D9E398DA6 /* NotoEmoji.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8352F44CFD7A43929CB78345 /* NotoEmoji.ttf */; };
+		1AAD234C5F374B18B14B8878 /* NotoColorEmoji.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C29F4604AF44B46B0D14A36 /* NotoColorEmoji.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,12 +24,17 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = cui/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = cui/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = cui/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-cui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cui.debug.xcconfig"; path = "Target Support Files/Pods-cui/Pods-cui.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-cui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cui.release.xcconfig"; path = "Target Support Files/Pods-cui/Pods-cui.release.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-cui.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cui.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E34490DB44CEE97548A793 /* Pods-cui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cui.release.xcconfig"; path = "Target Support Files/Pods-cui/Pods-cui.release.xcconfig"; sourceTree = "<group>"; };
+		63490B48019E4AAA9141C74B /* Kugile_Demo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Kugile_Demo.ttf; path = ../assets/fonts/Kugile_Demo.ttf; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = cui/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = cui/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A31B3E3DCA184A04B32D2CDA /* JandaRomantic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JandaRomantic.ttf; path = ../assets/fonts/JandaRomantic.ttf; sourceTree = "<group>"; };
+		D043570E2F03483C9E44FD49 /* Atkinson.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Atkinson.ttf; path = ../assets/fonts/Atkinson.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EF54E390C63EDC8A4E35C73C /* libPods-cui.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cui.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F128EA8FAB9C25BED2241883 /* Pods-cui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cui.debug.xcconfig"; path = "Target Support Files/Pods-cui/Pods-cui.debug.xcconfig"; sourceTree = "<group>"; };
+		8352F44CFD7A43929CB78345 /* NotoEmoji.ttf */ = {isa = PBXFileReference; name = "NotoEmoji.ttf"; path = "../assets/fonts/NotoEmoji.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0C29F4604AF44B46B0D14A36 /* NotoColorEmoji.ttf */ = {isa = PBXFileReference; name = "NotoColorEmoji.ttf"; path = "../assets/fonts/NotoColorEmoji.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-cui.a in Frameworks */,
+				D73FF2900BBDB0F9B2D6E21B /* libPods-cui.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,9 +65,22 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-cui.a */,
+				EF54E390C63EDC8A4E35C73C /* libPods-cui.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CD29867176048E9981BBFBD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A31B3E3DCA184A04B32D2CDA /* JandaRomantic.ttf */,
+				63490B48019E4AAA9141C74B /* Kugile_Demo.ttf */,
+				D043570E2F03483C9E44FD49 /* Atkinson.ttf */,
+				8352F44CFD7A43929CB78345 /* NotoEmoji.ttf */,
+				0C29F4604AF44B46B0D14A36 /* NotoColorEmoji.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -75,6 +98,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				4CD29867176048E9981BBFBD /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -92,8 +116,8 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-cui.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-cui.release.xcconfig */,
+				F128EA8FAB9C25BED2241883 /* Pods-cui.debug.xcconfig */,
+				58E34490DB44CEE97548A793 /* Pods-cui.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -105,13 +129,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "cui" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				15C9D01A270190DB168FB174 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				5E820FEBCC60323E0B3ED6D8 /* [CP] Embed Pods Frameworks */,
+				B280D732BE9293D0459F5FBE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,6 +185,11 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				9D2B817262F45CAEE5CD1515 /* PrivacyInfo.xcprivacy in Resources */,
+				1E2BE87C8ED3461D8761FB50 /* JandaRomantic.ttf in Resources */,
+				E955048D74D5491E99A5CA5F /* Kugile_Demo.ttf in Resources */,
+				9536292D419641CC8E40A8B0 /* Atkinson.ttf in Resources */,
+				81952621BDBE464D9E398DA6 /* NotoEmoji.ttf in Resources */,
+				1AAD234C5F374B18B14B8878 /* NotoColorEmoji.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,24 +212,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cui/Pods-cui-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cui/Pods-cui-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cui/Pods-cui-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		15C9D01A270190DB168FB174 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,7 +234,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		5E820FEBCC60323E0B3ED6D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cui/Pods-cui-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cui/Pods-cui-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cui/Pods-cui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B280D732BE9293D0459F5FBE /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,7 +284,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-cui.debug.xcconfig */;
+			baseConfigurationReference = F128EA8FAB9C25BED2241883 /* Pods-cui.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -283,7 +312,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-cui.release.xcconfig */;
+			baseConfigurationReference = 58E34490DB44CEE97548A793 /* Pods-cui.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

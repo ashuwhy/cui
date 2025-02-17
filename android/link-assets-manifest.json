@@ -1,0 +1,25 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Atkinson.ttf",
+      "sha1": "5024f8a362ad13aec692a6d7d9702fe9085c14b9"
+    },
+    {
+      "path": "assets/fonts/JandaRomantic.ttf",
+      "sha1": "d31aafec0c8c51788a39c9fa54284c25118a3aea"
+    },
+    {
+      "path": "assets/fonts/Kugile_Demo.ttf",
+      "sha1": "c72fb277f0384dac6e80b54ad6bf3c26ca64ae10"
+    },
+    {
+      "path": "assets/fonts/NotoColorEmoji.ttf",
+      "sha1": "bb5760521716edcbf0dabf42a814d2188a47f017"
+    },
+    {
+      "path": "assets/fonts/NotoEmoji.ttf",
+      "sha1": "bb5760521716edcbf0dabf42a814d2188a47f017"
+    }
+  ]
+}
