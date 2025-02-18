@@ -1,12 +1,11 @@
-# Will You Be My Girlfriend? 💝
+# will You Be My Girlfriend? 💝
 
 <p align="center">
   <img src="https://media1.tenor.com/m/dob-xJHGr-EAAAAd/love-love-is-the-best-thing.gif" alt="love gif" width="300"/>
   <br/>
-  <em>a playful way to pop the question 💕</em>
 </p>
 
-> "Cui" is a playful abbreviation of "Will you be my Cutie? I love you!" 😗
+> "cui" is a playful abbreviation of "Will you be my Cutie? I love you!" 😗
 
 A charming and interactive React Native application that creates a playful way to ask someone to be your girlfriend. Built with love and modern mobile development technologies.
 
