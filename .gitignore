@@ -2,6 +2,9 @@
 #
 .DS_Store
 
+#Test
+__test__/
+
 # Xcode
 #
 build/

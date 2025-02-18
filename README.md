@@ -1,4 +1,4 @@
-# will You Be My Girlfriend? 💝
+# will you be my girlfriend? 💝
 
 <p align="center">
   <img src="https://media1.tenor.com/m/dob-xJHGr-EAAAAd/love-love-is-the-best-thing.gif" alt="love gif" width="300"/>
