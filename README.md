@@ -1,97 +1,104 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Will You Be My Girlfriend? 💝
 
-# Getting Started
+<p align="center">
+  <img src="https://tenor.com/xF4t.gif" alt="Demo of the app" width="300"/>
+  <br/>
+  <em>A playful way to pop the question 💕</em>
+</p>
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+> **Fun Fact:** "Cui" is a playful abbreviation of "Will you be my Cutie? I love you!" 😊
 
-## Step 1: Start Metro
+A charming and interactive React Native application that creates a playful way to ask someone to be your girlfriend. Built with love and modern mobile development technologies.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## Features
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+### Interactive UI Elements
+- Animated floating heart emoji
+- Two response buttons: "yes" and "no"
+- Playful interaction where the "no" button playfully dodges when pressed
+- Beautiful rose decorations
+- Custom fonts for a romantic aesthetic
 
-```sh
-# Using npm
-npm start
+### Background Music
+- Built-in music player with pause/play functionality
+- Romantic background track
+- Elegant music control button
 
-# OR using Yarn
-yarn start
+### Animations
+- Pulsing heart animation
+- Dynamic "no" button movement with spring physics
+- Smooth scale and rotation effects
+- Safe-area aware animations that keep elements on screen
+
+## Technical Stack
+
+- **Framework**: React Native 0.77.1
+- **Language**: TypeScript
+- **Audio**: react-native-track-player
+- **Icons**: react-feather
+- **Fonts**: 
+  - Kugile Demo (for titles)
+  - Atkinson (for buttons)
+  - Noto Color Emoji (for emoji support)
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+
+```bash
+npm install
 ```
 
-## Step 2: Build and run your app
-
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
+3. Install iOS dependencies:
+```bash
+cd ios
 bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
 bundle exec pod install
+cd ..
 ```
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+4. Start the Metro bundler:
+```bash
+npm start
+```
 
-```sh
-# Using npm
+5. Run the application:
+
+For iOS:
+```bash
 npm run ios
-
-# OR using Yarn
-yarn ios
 ```
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+For Android:
+```bash
+npm run android
+```
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+## Project Structure
 
-## Step 3: Modify your app
+- `/assets`: Contains fonts, images, and audio files
+- `/ios` & `/android`: Native platform configurations
+- `App.tsx`: Main application component
+- Custom fonts and emoji support configured for both platforms
 
-Now that you have successfully run the app, let's make changes!
+## Customization
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+You can customize various aspects of the app:
+- Background music: Replace `concert.wav` in the assets folder
+- Colors: Modify the style constants in `App.tsx`
+- Messages: Edit the alert text in the `onYesPress` function
+- Animations: Adjust timing and spring configurations in animation functions
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+## Contributing
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+Feel free to contribute to this project by submitting pull requests or creating issues for bugs and feature requests.
 
-## Congratulations! :tada:
+## License
 
-You've successfully run and modified your React Native App. :partying_face:
+This project is open-source and available under the MIT License.
 
-### Now what?
+---
+Copyright © 2025 Ashutosh Sharma
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Made with ❤️ and React Native
