@@ -7,7 +7,7 @@
 
 > "cui" is a playful abbreviation of "will you be my cutie? i love you!" 😗
 
-A charming and interactive React Native application that creates a playful way to ask someone to be your girlfriend. Built with love and modern mobile development technologies.
+A charming and interactive React Native application that creates a playful way to ask someone to be your girlfriend.
 
 ## Features
 
